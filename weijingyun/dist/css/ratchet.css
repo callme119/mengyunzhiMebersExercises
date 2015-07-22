@@ -656,10 +656,10 @@ input[type="button"] {
 .badge {
   display: inline-block;
   padding: 2px 9px 3px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1;
-  color: #333;
-  background-color: rgba(0, 0, 0, .15);
+  color: #ff3333;
+  //background-color: rgba(0, 0, 0, .15);
   border-radius: 100px;
 }
 .badge.badge-inverted {
@@ -724,13 +724,13 @@ input[type="button"] {
   margin-bottom: 15px;
   list-style: none;
   background-color: #fff;
-  border-top: 1px solid #ddd;
+  //border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }
 
 .table-view-cell {
   position: relative;
-  padding: 11px 65px 11px 15px;
+  padding: 11px 45px 11px 15px;
   overflow: hidden;
   border-bottom: 1px solid #ddd;
 }
@@ -901,7 +901,7 @@ select {
 .input-row {
   height: 35px;
   overflow: hidden;
-  border-bottom: 1px solid #ddd;
+  //border-bottom: 1px solid #ddd;
 }
 
 .input-row label {

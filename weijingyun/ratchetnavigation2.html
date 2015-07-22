@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ratchet template page</title>
+
+        <!-- Sets initial viewport load and disables zooming  -->
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+        <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <!-- Include the compiled Ratchet CSS -->
+        <link href="dist/css/ratchet.css" rel="stylesheet">
+
+        <!-- Include the compiled Ratchet JS -->
+        <script src="dist/js/ratchet.js"></script>
+    </head>
+    <body>
+        <!-- Make sure all your bars are the first things in your <body> -->
+        <header class="bar bar-nav">
+            <a class="icon icon-left-nav pull-left"></a>
+            <a class="icon icon-compose pull-right"></a>
+            <h1 class="title">Title</h1>
+        </header>
+        <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+        <div class="content">
+            <div class="input">
+                <form class="input-group form">
+                    <div class="input-row">
+                        <label>我的位置</label>
+                        <input type="text" >
+                    </div>
+                    <div class="input-row">
+                        <label>终点</label>
+                        <input type="email">
+                    </div>
+                </form>
+            </div>
+            <ul class="table-view">
+                <li class="table-view-cell">学生宿舍<span class="badge">4</span></li>
+                <li class="table-view-cell">学生生活区 <span class="badge">1</span></li>
+                <li class="table-view-cell">教学用楼<span class="badge">19</span></li>
+                <li class="table-view-cell">学院楼<span class="badge">4</span></li>
+                <li class="table-view-cell">机关单位<span class="badge">50</span></li>
+                <li class="table-view-cell">其他<span class="badge">5</span></li>
+                <li class="table-view-cell">生活助手<span class="badge">8</span></li>
+            </ul>
+
+        </div>
+        <nav class="bar bar-tab">
+            <a class="tab-item active" href="#">
+                <span class="icon icon-home"></span>
+                <span class="tab-label">首页</span>
+            </a>
+            <a class="tab-item" href="#">
+                <span class="icon icon-sound"></span>
+                <span class="tab-label">理工要闻</span>
+            </a>
+            <a class="tab-item" href="#">
+                <span class="icon icon-search"></span>
+                <span class="tab-label">校内导航</span>
+            </a>
+            <a class="tab-item" href="#">
+                <span class="icon icon-person"></span>
+                <span class="tab-label">关于我们</span>
+            </a>
+        </nav>
+    </body>
+</html>
+<style>
+    .form{
+        background-color: #00cc99;padding-bottom: 15px;padding-top: 15px;
+    }
+    .input-row{
+        background-color: #00cccc;margin-left: 10px;margin-right: 10px;margin-bottom: 5px;        
+    }
+</style>
