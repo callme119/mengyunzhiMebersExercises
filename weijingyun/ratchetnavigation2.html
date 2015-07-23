@@ -19,10 +19,10 @@
     </head>
     <body>
         <!-- Make sure all your bars are the first things in your <body> -->
-        <header class="bar bar-nav">
-            <a class="icon icon-left-nav pull-left"></a>
-            <a class="icon icon-compose pull-right"></a>
-            <h1 class="title">Title</h1>
+        <header class="bar bar-nav"> 
+            <a class="icon pull-left"><img class="png" src="img/iconfont-zuojiantou.png"></a>
+            <a class="icon pull-right"><img class="png" src="img/iconfont-xunhuan.png"></a>
+            <div class="icon xingren"><img class="png" src="img/iconfont-xingren.png"></div>
         </header>
         <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
         <div class="content">
@@ -47,23 +47,22 @@
                 <li class="table-view-cell">其他<span class="badge">5</span></li>
                 <li class="table-view-cell">生活助手<span class="badge">8</span></li>
             </ul>
-
         </div>
         <nav class="bar bar-tab">
-            <a class="tab-item active" href="#">
-                <span class="icon icon-home"></span>
+            <a class="tab-item active" href="ratchethome.html">
+                <span class="icon"><img class="png" src="img/iconfont-shouyeshouye(3).png"></span>
                 <span class="tab-label">首页</span>
             </a>
             <a class="tab-item" href="#">
-                <span class="icon icon-sound"></span>
+                <span class="icon"><img class="png" src="img/iconfont-gonggao.png"></span>
                 <span class="tab-label">理工要闻</span>
             </a>
             <a class="tab-item" href="#">
-                <span class="icon icon-search"></span>
+                <span class="icon"><img class="png" src="img/iconfont-daohang.png"></span>
                 <span class="tab-label">校内导航</span>
             </a>
             <a class="tab-item" href="#">
-                <span class="icon icon-person"></span>
+                <span class="icon"><img class="png" src="img/iconfont-iconfontwo.png"></span>
                 <span class="tab-label">关于我们</span>
             </a>
         </nav>
@@ -75,5 +74,11 @@
     }
     .input-row{
         background-color: #00cccc;margin-left: 10px;margin-right: 10px;margin-bottom: 5px;        
+    }
+     .png{
+        width: 24px;height: 24px;
+    }
+    .xingren {
+        margin-left: 40%;
     }
 </style>
