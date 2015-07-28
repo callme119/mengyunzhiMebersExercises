@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head lang="en">
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" href='jquery.mobile-1.4.5.css' rel="stylesheet">
+        <script src='jquery-2.1.4.min.js'></script>
+        <script src='jquery.mobile-1.4.5.js'></script>
+    </head>
+    <body>
+        <a href="#pop" data-rel="popup" class="ui-btn" >
+           弹出窗口
+        </a>
+        <div id="pop" data-rel="popup">
+            <p>这是一个弹出窗口</p>
+        </div>
+        <a href="#pp" data-rel="popup" data-position-to="window" data-transition="fade">
+            <img src="PICT2615.jpg" class="pupphoto" style="width: 20%;">
+        </a>
+        <div data-rel="popup" id="pp">
+            <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">close</a>
+            <img src="PICT2615.png" class="popphoto" style="max-height:512px;">
+        </div>
+    </body>
+</html>
