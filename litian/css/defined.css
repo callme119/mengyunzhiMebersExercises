@@ -13,3 +13,19 @@
 .tittle-define{
     font-family: "微软雅黑";
 }
+.bg{
+    background: url(../images/bg-4.jpg)  center fixed;
+    background-size:contain;
+}
+.bg-slider{
+    background: url(../images/bg-8.jpg) no-repeat center fixed;
+    background-size:contain;
+}
+.bg-protect{
+    background: url(../images/bg-5.jpg) center fixed;
+    background-size:contain;
+}
+.bg-foot{
+    background: url(../images/bg-2.jpg) center fixed;
+    background-size:contain;
+}
