@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ratchet template page</title>
+
+        <!-- Sets initial viewport load and disables zooming  -->
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+        <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <!-- Include the compiled Ratchet CSS -->
+        <link href="dist/css/ratchet.css" rel="stylesheet">
+
+        <!-- Include the compiled Ratchet JS -->
+        <script src="dist/js/ratchet.js"></script>
+    </head>
+    <body>
+        <!-- Make sure all your bars are the first things in your <body> -->
+
+        <header class="bar bar-nav">
+            <div class="image">
+                <img class="headerimg" src="img/header.jpeg">
+            </div>
+            <div class="segmented-control">
+                <a class="control-item active">午餐沙拉</a>
+                <a class="control-item">早餐</a>
+                <a class="control-item">下午茶</a>
+            </div>
+        </header>
+        <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+        <div class="content">
+            <div class="slider" id="mySlider">
+                <div class="slide-group">
+                    <div class="slide">
+                        <img class="activeimg" src="img/activity.png">
+                        <span class="slide-text">
+                            <span class="icon icon-left-nav"></span>
+                            Slide me
+                        </span>
+                    </div>
+                    <div class="slide">
+                        <img class="activeimg" src="img/activity.png">
+                    </div>
+                    <div class="slide">
+                        <img class="activeimg" src="img/activity.png">
+                    </div>
+                </div>
+            </div>
+            <div class="shopping">
+                <img class="shoppingimg" src="img/activity.png">
+            </div>
+            <div class="shopping">
+                <img class="shoppingimg" src="img/activity.png">
+            </div>
+            <div class="shopping">
+                <img class="shoppingimg" src="img/activity.png">
+            </div>
+            <div class="shopping">
+                <img class="shoppingimg" src="img/activity.png">
+            </div>
+            <div class="returnbar">
+                <span class="return">TOP 返回顶部</span>
+            </div>
+            <div class="content-padded introduction">
+                <h6>欢迎来电咨询：400-961-7588</h6>
+                <h6>服务时间：工作日9：00am-6:00pm</h6>
+                <h6>邮箱：jgmvj@djkjjvmd.com.cn</h6>
+                <h6>@tianxinfoot.com.cn京ICP备14022532号-1</h6>
+                
+            </div>
+
+        </div>
+        <nav class="bar bar-tab">
+            <a class="tab-item active" href="ratchethome.html">
+                <span class="icon"><img class="png" src="img/iconfont-shouyeshouye(3).png"></span>
+                <span class="tab-label">主页</span>
+            </a>
+            <a class="tab-item" href="#">
+                <span class="icon"><img class="png" src="img/iconfont-gouwuche.png"></span>
+                <span class="tab-label">购物车</span>
+            </a>
+            <a class="tab-item" href="#">
+                <span class="icon"><img class="png" src="img/iconfont-iconfontwo.png"></span>
+                <span class="tab-label">我们</span>
+            </a>
+        </nav>
+    </body>
+</html>
+<style>
+    .png{
+        width: 24px;height: 24px;
+    }
+    image{
+        width: 100%;
+        height: 100px;
+    }
+    .headerimg{
+        width: 100%;
+        height: 10%;
+    }
+    .content{
+        margin-top: 80px;
+        background-color:   #f3f3f5;
+    }
+    .activeimg{
+        width: 100%;
+        height: 125.7px;
+    }
+    .shopping{
+        width: 100%;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+    .shoppingimg{
+        width: 100%;
+        height: 150px;
+    }
+    .returnbar{
+        width: 100%;
+        height: 20px;
+        background-color: #ccff00;
+        
+    }
+    .return{
+        font-size: 0.7em;
+        color:  #ffffff;
+        float: right;
+        margin-right: 10px;
+    }
+    .introduction{
+        margin-bottom: 60px;
+    }
+</style>
