@@ -18,7 +18,7 @@
     background-size:contain;
 }
 .bg-slider{
-    background: url(../images/bg-8.jpg) no-repeat center fixed;
+    background: url(../images/bg-8.jpg)  center fixed;
     background-size:contain;
 }
 .bg-protect{
@@ -28,4 +28,7 @@
 .bg-foot{
     background: url(../images/bg-2.jpg) center fixed;
     background-size:contain;
+}
+#nav-define{
+      background:url(../images/nav-bg.jpg) repeat-x; position:relative; z-index:2000;
 }
