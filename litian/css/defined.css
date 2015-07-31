@@ -18,7 +18,7 @@
     background-size:contain;
 }
 .bg-slider{
-    background: url(../images/bg-8.jpg)  center fixed;
+    background: url(../images/bg-8.jpg)  center ;
     background-size:contain;
 }
 .bg-protect{
@@ -31,4 +31,10 @@
 }
 #nav-define{
       background:url(../images/nav-bg.jpg) repeat-x; position:relative; z-index:2000;
+}
+.bg-divide{
+    background-color: #B0DBFB;
+}
+.list-define{
+    padding-top: 20px;
 }
