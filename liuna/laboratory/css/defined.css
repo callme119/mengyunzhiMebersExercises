@@ -4,3 +4,41 @@
 .bg-body{
     background-image: url(../pic/000001.jpg);
 }
+.bg-text{
+    background-image: url(../pic/000007.jpg);
+    overflow:hidden;
+    background-repeat: no-repeat
+}
+.container1{
+    padding-right:150px;
+    padding-left:150px;
+    margin-right:0px;
+    margin-left:0px;
+}
+.abc{
+    color:#ffffff;
+    text-align:center;
+}
+.abc1{
+    color:#ffffff;
+    font-family:"楷体"
+}
+.abc2{
+    color:#ffffff;
+    text-align:center;
+}
+.div-size{
+    height:auto;
+    width:100%;
+    padding:10px;
+    padding-top: 20px;
+    margin:0px;
+    background-image: url(../pic/000006.jpg)
+}
+.div-size1{
+    height:100%;
+    width:auto
+}
+.pic1{
+    text-align:center
+}
