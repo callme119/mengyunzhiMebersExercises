@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ratchet template page</title>
+
+        <!-- Sets initial viewport load and disables zooming  -->
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+        <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <!-- Include the compiled Ratchet CSS -->
+        <link href="dist/css/ratchet.css" rel="stylesheet">
+
+        <!-- Include the compiled Ratchet JS -->
+        <script src="dist/js/ratchet.js"></script>
+        <script src="dist/js/sliders.js"></script>
+    </head>
+    <body>
+        <!-- Make sure all your bars are the first things in your <body> -->
+
+        <header class="bar bar-nav">
+            <a class="icon icon-left-nav pull-left"></a>
+            <h1 class="title">商品详情</h1>
+        </header>
+        <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+        <div class="content">
+            <div class="shopping">
+                <img class="shoppingimg" src="img/activity.png">
+            </div>
+            <div class="introduction1">
+                <div class="nameprice"><span class="name">斯巴达沙拉</span><span class="price">￥35.00</span></div>
+                <div class="clr"></div>
+                <div><p>当绿色金子四角豆遇见挂满冰珠的水晶冰菜，挑逗的可不止是你的味蕾。银杏、百合、小番茄对抗夏日高温强辐射，再淋上清新诱人的蜜桃罗勒酱，淡淡的水果香气充满
+                        口鼻。没有惊天动地，轰轰烈烈，却足以让人刻骨铭心，每一口都是夏天的味道。这就是甜心摇滚沙拉的2015夏日记忆</p></div>
+            </div>
+            <div class="introduction2">
+            </div>
+            <div class="nutritivevalue">
+                <div class="grey">营养价值:</div>
+                <div class="heatshows">
+                    <div class="heat">热量C</div>
+                    <div class="heatvalue">233Kcal</div>
+                </div>
+                <div class="heatshows">
+                    <div class="heat">碳水Cx</div>
+                    <div class="heatvalue">49g</div>
+                </div>
+                <div class="heatshows">
+                    <div class="heat">脂肪Fat</div>
+                    <div class="heatvalue">1g</div>
+                </div>
+                <div class="heatshows1">
+                    <div class="heat">热量C</div>
+                    <div class="heatvalue">233Kcal</div>
+                </div>
+                <div class="clr"></div> 
+            </div>
+            <div class="sauce">
+                <div class="grey">酱汁:</div>
+                <div class="saucetype">
+                    <button class="btn btn-outlined saucebtn">蜂蜜芥末</button>
+                    <button class="btn btn-outlined saucebtn">凯撒酱</button>
+                    <button class="btn btn-outlined saucebtn">香菇酱</button>
+                    <button class="btn btn-outlined saucebtn">油醋汁</button>
+                    <button class="btn btn-outlined saucebtn">无酱汁</button>
+                    <button class="btn btn-outlined saucebtn">南美红辣汁</button>
+                    <button class="btn btn-outlined saucebtn">意式香草酱</button>
+                    <div class="clr"></div> 
+                </div>
+                <div class="buynumber">
+                    购买分数：<button class="">-</button><button class="">1</button><button class="">+</button>
+                </div>
+                <div class="kuanbtn">
+                    <button class="kuanbtn1">立即购买</button>
+                </div>
+                <div class="kuanbtn">
+                    <button class="kuanbtn2">加入订单</button>
+                </div>
+            </div>
+            <div class="returnbar">
+                <span class="return">TOP 返回顶部</span>
+            </div>
+            <div class="content-padded introduction">
+                <h6>欢迎来电咨询：400-961-7588</h6>
+                <h6>服务时间：工作日9：00am-6:00pm</h6>
+                <h6>邮箱：jgmvj@djkjjvmd.com.cn</h6>
+                <h6>@tianxinfoot.com.cn京ICP备14022532号-1</h6>
+
+            </div>
+        </div>
+        <nav class="bar bar-tab">
+            <a class="tab-item active" href="ratchethome.html">
+                <span class="icon"><img class="png" src="img/iconfont-shouyeshouye(3).png"></span>
+                <span class="tab-label">主页</span>
+            </a>
+            <a class="tab-item" href="#">
+                <span class="icon"><img class="png" src="img/iconfont-gouwuche.png"></span>
+                <span class="tab-label">购物车</span>
+            </a>
+            <a class="tab-item" href="#">
+                <span class="icon"><img class="png" src="img/iconfont-iconfontwo.png"></span>
+                <span class="tab-label">我们</span>
+            </a>
+        </nav>
+    </body>
+</html>
+<script>
+    document
+            .querySelector('#mySlider')
+            .addEventListener('slide', myFunction)
+</script>
+<style>
+    .png{
+        width: 24px;height: 24px;
+    }
+    .returnbar{
+        width: 100%;
+        height: 20px;
+        background-color: #ccff00;
+
+    }
+    .return{
+        font-size: 0.7em;
+        color:  #ffffff;
+        float: right;
+        margin-right: 10px;
+    }
+    .shoppingimg{
+        width: 100%;
+        height: 150px;
+    }
+    .price{
+        float: right;
+    }
+    .name{
+        float: left;
+    }
+    .clr{
+        clear: both;
+    }
+    .introduction1{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .nameprice{
+        height: 21px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .grey{
+        background-color:  #faf7f7;
+        padding-left: 10px;
+    }
+    .heat{
+        text-align: center;
+    }
+    .heatvalue{
+        color:  #ccff00;
+        text-align: center;
+    }
+    .heatshows{
+        width: 22%;
+        border-right: 2px #faf7f7 solid;
+        margin-left: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        float: left;
+
+    }
+    .heatshows1{
+        width: 22%;
+        margin-left: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        float: left;
+    }
+    .nutritivevalue{
+        border-bottom: 2px #faf7f7 solid;
+        margin-bottom: 5px;
+    }
+    .saucebtn{
+        width: 44%;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .saucetype{
+        margin-top: 10px;
+    }
+    .buynumber{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .kuanbtn1{
+        width: 100%;
+        text-align: center;
+            
+    }
+    .kuanbtn2{
+        width: 100%;
+        text-align: center;
+    }
+    .kuanbtn3{
+        width: 100%;
+        text-align: center;
+    }
+    .kuanbtn{
+        margin-bottom: 10px;
+    }
+</style>
+
