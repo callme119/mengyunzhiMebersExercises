@@ -73,8 +73,9 @@
 .a{
     color: #fff;
 }
-.bg-team{
-    background: url(../images/bg-9.jpg) no-repeat;
-    background-size:100% 100%;
-    
+.team-pic{
+    margin-top: 30px;
+}
+.thumbnail{
+    padding:9px;color:#333;border-width:1px 0px 0px 0px;
 }
