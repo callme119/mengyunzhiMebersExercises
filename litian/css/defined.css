@@ -79,3 +79,15 @@
 .thumbnail{
     padding:9px;color:#333;border-width:1px 0px 0px 0px;
 }
+.footer {
+    width: 100%;
+    margin: 50px auto 40px;
+    border-top: 3px solid #0160AA;
+    padding-top: 20px;
+    text-align: center;
+    color: #FFF;
+    height: 60px;
+    line-height: 20px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
